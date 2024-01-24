@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<title>Chess App</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<h1>Chess App</h1>
+
+<div class="container">
+<div class="left-panel">
+<h2>Select Computer Opponent Rating:</h2>
+<form action="/start_game">
+<select name="rating">
+<option value="1000">1000</option>
+<option value="1200">1200</option>
+<option value="1400">1400</option>
+<option value="1600">1600</option>
+<option value="1800">1800</option>
+<option value="2000">2000</option>
+</select>
+<br>
+<input type="submit" value="Start Game" />
+</form>
+</div>
+
+<div class="right-panel">
+<div class="chessboard">
+<!-- Chessboard will be rendered here -->
+</div>
+<div class="moves">
+<h2>Moves:</h2>
+<ol>
+<!-- Moves will be displayed here -->
+</ol>
+</div>
+</div>
+</div>
+
+<div class="footer">
+<a href="/about">About</a>
+<a href="/help">Help</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
+
+
